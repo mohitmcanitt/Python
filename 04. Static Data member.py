@@ -12,6 +12,9 @@ class Employee:
 
 obj1=Employee("Mohit",56)
 obj2=Employee("Rahul",72)
+
+print(Employee.Course_name) #no need to create object of class
 obj1.print_details()
 obj2.print_details()
+
 
